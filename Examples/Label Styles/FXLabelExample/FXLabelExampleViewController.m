@@ -21,16 +21,16 @@
     [super viewDidLoad];
     
     //demonstrate shadow
-    label1.shadowColor = nil;
-    label1.shadowOffset = CGSizeMake(0.0f, 2.0f);
+//    label1.shadowColor = nil;
     label1.shadowColor = [UIColor colorWithWhite:0.0f alpha:0.75f];
+    label1.shadowOffset = CGSizeMake(0.0f, 2.0f);
     label1.shadowBlur = 5.0f;
     
     //demonstrate inner shadow
     label2.shadowColor = [UIColor colorWithWhite:1.0f alpha:0.8f];
-    label2.shadowOffset = CGSizeMake(1.0f, 1.0f);
-    label2.shadowBlur = 1.0f;
-    label2.innerShadowBlur = 2.0f;
+    label2.shadowOffset = CGSizeMake(2.0f, 2.0f);
+//    label2.shadowBlur = 1.0f;
+//    label2.innerShadowBlur = 2.0f;
     label2.innerShadowColor = [UIColor colorWithWhite:0.0f alpha:0.8f];
     label2.innerShadowOffset = CGSizeMake(1.0f, 1.0f);
     
